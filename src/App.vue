@@ -12,9 +12,9 @@
 </script>
 
 <template>
-    <h1>Hello App!</h1>
 
-    <h2>{{ thingStore.name }}</h2>
+
+
   <!-- <p>
     <strong>Current route path:</strong> {{ $route.fullPath }}
   </p> -->
@@ -22,7 +22,7 @@
     <RouterLink to="/">Go to Home</RouterLink>
     <RouterLink to="/about">Go to About</RouterLink>
   </nav> -->
-  <Routes></Routes>
+  <!-- <Routes></Routes> -->
   <main>
     <RouterView />
   </main>
